@@ -94,7 +94,7 @@ const Table = () => {
           {data.map((item) => (
             <tr
               key={item.id}
-              className="bg-main-gradient rounded-2xl overflow-hidden h-20"
+              className="bg-brand-black rounded-2xl overflow-hidden h-20"
             >
               <td className="pl-5 border-y border-l rounded-l-2xl border-brand-black-100">
                 <div className='flex items-center gap-3'>
