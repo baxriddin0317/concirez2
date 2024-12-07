@@ -6,8 +6,8 @@ const AddProfileStatus = () => {
   const [isStatus, setIsStatus] = useState(false);
   const navigate = useNavigate();
 
-  const handleSubmit = () => {
-    navigate("/");
+  const handleBack = () => {
+    navigate("/profiles");
   };
   return (
     <>
@@ -25,7 +25,7 @@ const AddProfileStatus = () => {
           </div>
           {/*  */}
           <button
-            onClick={handleSubmit}
+            onClick={handleBack}
             className="w-full bg-brand-main text-center rounded-full text-white text-lg h-[60px]"
           >
             Go to Dashboard
@@ -46,7 +46,7 @@ const AddProfileStatus = () => {
             <button className="w-full bg-brand-main text-center rounded-full text-white text-lg h-12 md:h-[60px]">
               Try Again
             </button>
-            <button className="relative w-full bg-transparent border border-brand-main text-center rounded-full text-white text-lg h-12 md:h-[60px]">
+            <button onClick={handleBack} className="relative w-full bg-transparent border border-brand-main text-center rounded-full text-white text-lg h-12 md:h-[60px]">
               Back to profiles
               <svg className="absolute left-5 top-1/2 -translate-y-1/2" xmlns="http://www.w3.org/2000/svg" width={10} height={17} viewBox="0 0 10 17" fill="none">
                 <path d="M8.5 1.5L1.5 8.5L8.5 15.5" stroke="#B0B0B0" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
