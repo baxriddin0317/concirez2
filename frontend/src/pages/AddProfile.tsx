@@ -9,7 +9,7 @@ const AddProfile = () => {
 
   // handle submit
   const handleSubmit = () => {
-    navigate("/add-profiles/verification")
+    navigate("/add-profiles/verification-profile")
   }
 
   return (
