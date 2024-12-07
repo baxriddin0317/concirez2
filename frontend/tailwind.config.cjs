@@ -28,7 +28,8 @@ module.exports = {
         'main-gradient': "linear-gradient(90deg, rgba(246, 246, 246, 0.05) 0%, rgba(144, 144, 144, 0.05) 100%)",
         'bottom': "linear-gradient(180deg, transparent 0%, #121212 100%)",
         'card': "linear-gradient(90deg, rgba(18, 18, 18, 0.80) 0%, rgba(36, 36, 36, 0.80) 100%)",
-        'modal': "linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(144, 144, 144, 0.05) 100%)"
+        'modal': "linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(144, 144, 144, 0.05) 100%)",
+        'add-card': "linear-gradient(270deg, rgba(246, 246, 246, 0.05) 0%, rgba(144, 144, 144, 0.05) 100%)"
       }
     },
   },
