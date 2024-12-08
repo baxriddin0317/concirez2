@@ -1,6 +1,6 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-import profileBg from "./assets/add-profile-bg.jpg"
+import profileBg from "./assets/add-profile-bg.png"
 import Logo from "./assets/logo.png"
 
 const AddProfileLayout = () => {

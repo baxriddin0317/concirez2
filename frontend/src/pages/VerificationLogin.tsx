@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react'
-import profileBg from "../assets/add-profile-bg.jpg"
+import profileBg from "../assets/add-profile-bg.png"
 import Logo from "../assets/logo.png"
 import { useNavigate } from 'react-router-dom';
 import { CloseIcon } from '../icons';
